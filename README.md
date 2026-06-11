@@ -1,4 +1,4 @@
-# ⚒️ Mining Accident Analytics & RAG System
+# Accident Analytics & RAG System
 
 A Streamlit-based data analytics and Retrieval-Augmented Generation (RAG) system for exploring, visualizing, and querying mining accident datasets. Built to support both Indian and Australian mining accident records, with schema-agnostic design that works with any country's dataset.
 
@@ -29,10 +29,6 @@ A Streamlit-based data analytics and Retrieval-Augmented Generation (RAG) system
 - Smart rebuild: full rebuild when embedding/reranker model changes, fast update when only the chat model changes
 - Persistent chat history within a session
 
-**Safety Audit Report Generator**
-- Auto-generates a structured safety audit report with KPIs, fatality trends, geographic analysis, and root cause summary
-- AI-written safety recommendations powered by Groq LLM
-- Download as Markdown or PDF
 
 ---
 
@@ -90,11 +86,6 @@ streamlit run combined.py
 ## Sample Datasets
 
 Two datasets are bundled as downloadable links inside the app (in the **Get Datasets** tab):
-
-| Dataset | Records | Period |
-|---------|---------|--------|
-| 🇮🇳 India Mining Accidents | 337 | 2016 – 2022 |
-| 🇦🇺 Australia Mining Accidents | 350 | 1882 – 2024 |
 
 ---
 
