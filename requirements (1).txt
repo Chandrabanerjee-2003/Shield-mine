@@ -1,0 +1,28 @@
+streamlit
+pandas
+numpy
+scikit-learn
+scipy
+plotly
+matplotlib
+seaborn
+wordcloud
+python-dotenv
+reportlab
+markdown2
+
+# LangChain ecosystem
+langchain-core
+langchain-text-splitters
+langchain-community
+langchain-huggingface
+langchain-groq
+langchain-chroma
+langchain-classic
+faiss-cpu
+
+# Embeddings & reranking
+sentence-transformers
+
+# LLM
+groq
